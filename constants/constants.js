@@ -8,6 +8,8 @@ export const DETAILS = {
   Age: '28'
 };
 
+export const SKILLS = [];
+
 export const TECH_STACK = [
   'Web3',
   'ReactJS',
