@@ -1,67 +1,60 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Paul Breen';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `Web3 Frontend Developer`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Ireland',
+  City: 'Tipperary',
+  Age: '28'
 };
 
-export const SKILLS = [
-  {
-    title: 'MERN Stack Developer',
-    level: '75%',
-  },
-  {
-    title: 'React Developer',
-    level: '91%',
-  },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
-  {
-    title: 'Backend Developer',
-    level: '54%',
-  },
-  {
-    title: 'Technical Blogger',
-    level: '83%',
-  },
-];
-
 export const TECH_STACK = [
-  'JavaScript',
+  'Web3',
   'ReactJS',
   'NextJS',
+  'ether.js',
+  'solidity',
   'TypeScript',
+  'Smart Contracts',
+  'JavaScript',
   'NodeJS',
   'Redux',
-  'Zustand',
+  'Express',
   'CSS',
   'SCSS',
   'TailwindCSS',
-  'Ant Design',
+  'Headless CMS',
+  'Vue',
+  'Vuex',
+  'PostgreSQL',
+  'Selenium',
+  'Git',
+  'Jest',
+  'Unit Testing',
+
+  'HTML5',
+  'jQuery',
+  'GraphQL',
+  'SASS',
+  'NFTs',
+  'DeFi',
   'Material UI',
   'Next UI',
+  'Jira',
   'REST API',
   'MongoDB',
   'MySQL',
-  'Git',
   'GitHub',
-  'Jira',
   'Figma',
-  'Adobe XD',
+  'Adobe XD'
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'paul.breen.smile@gmail.com',
+  Telegram: '@bespractice116',
+  GV: '424 725 8748'
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/bespractice116',
+  LINKEDIN: 'https://www.linkedin.com/in/paul-breen-passion/'
 };
