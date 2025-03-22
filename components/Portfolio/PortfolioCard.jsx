@@ -9,12 +9,16 @@ const PortfolioCard = ({ data }) => {
         alt="portfolio img"
         className="w-full object-cover h-32 sm:h-48 md:h-64"
       />
-      <div id="arrow" className="py-2 px-6 card_stylings duration-500">
-        <div className="flex justify-between p-0 m-0 ">
-          <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl text-Snow leading-tight sm:leading-normal">
-            <a href={data?.url} target="_blank" rel="noreferrer">
-              {data?.projectName}
-            </a>
+      <a
+        id="arrow"
+        className="py-2 px-6 duration-500 h-full"
+        href={data?.url}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="flex justify-between px-4 m-0">
+          <h3 className="mr-2 underline italicfont-semibold pt-2 text-2xl text-Snow leading-tight sm:leading-normal">
+            <div>{data?.projectName}</div>
           </h3>
           <div className="text-Snow duration-500 hover:text-yellow hover:scale-110 pt-4 text-base">
             <a href={data?.url} target="_blank" rel="noreferrer">
@@ -37,7 +41,7 @@ const PortfolioCard = ({ data }) => {
             </a>
           </div>
         </div>
-        <p className="text-xs text-LightGray font-normal">
+        <p className="text-[16px] px-4 pt-2 text-LightGray font-normal">
           {data?.projectDetail}
         </p>
         {data.technologiesUsed && (
@@ -47,7 +51,7 @@ const PortfolioCard = ({ data }) => {
             ))}
           </div>
         )}
-      </div>
+      </a>
     </div>
   );
 };
