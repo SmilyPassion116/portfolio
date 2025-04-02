@@ -57,6 +57,6 @@ export const CONTACTS = {
   GV: '424 725 8748'
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/bespractice116',
+  GITHUB: 'https://github.com/leadpassion',
   LINKEDIN: 'https://www.linkedin.com/in/paul-breen-passion/'
 };
