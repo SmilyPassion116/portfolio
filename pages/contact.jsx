@@ -74,7 +74,7 @@ const Contact = () => {
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
-            href="https://github.com/bestpractice116"
+            href="https://github.com/leadpassion"
             target="_blank"
             rel="noreferrer"
           >
