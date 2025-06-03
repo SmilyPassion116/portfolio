@@ -37,7 +37,3 @@ Windows:
 ```bash
 git clone https://github.com/SmilyPassion116/portfolio.git
 ```
-
-### License
-
-This project is **free to use** and does not contains any license.
